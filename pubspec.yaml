@@ -17,7 +17,7 @@ dependencies:
 
   cupertino_icons: ^1.0.9
   go_router: ^17.2.0
-  provider: ^6.1.5+1
+  flutter_riverpod: ^3.3.1
   lucide_icons_flutter: ^3.1.12
   shared_preferences: ^2.5.5
   http: 

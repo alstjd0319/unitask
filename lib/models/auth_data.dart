@@ -38,22 +38,22 @@ class AuthData {
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
       'name': name,
-      'token_Type': tokenType,
-      'access_Token': accessToken,
-      'refresh_Token': refreshToken,
-      'expires_At': expiresAt,
-      'expires_In': expiresIn,
+      'token_type': tokenType,
+      'access_token': accessToken,
+      'refresh_token': refreshToken,
+      'expires_at': expiresAt,
+      'expires_in': expiresIn,
     };
   }
 
   factory AuthData.fromMap(Map<String, dynamic> map) {
     return AuthData(
       name: map['name'],
-      tokenType: map['token_Type'],
-      accessToken: map['access_Token'],
-      refreshToken: map['refresh_Token'],
-      expiresAt: map['expires_At'],
-      expiresIn: map['expires_In'],
+      tokenType: map['token_type'],
+      accessToken: map['access_token'],
+      refreshToken: map['refresh_token'],
+      expiresAt: map['expires_at'],
+      expiresIn: map['expires_in'],
     );
   }
 
