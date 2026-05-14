@@ -8,6 +8,11 @@ class AppTheme {
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.white,
       foregroundColor: Colors.black,
+      titleTextStyle: TextStyle(
+        fontWeight: .bold,
+        color: Colors.black,
+        fontSize: 24,
+      ),
     ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
       foregroundColor: Colors.white,
