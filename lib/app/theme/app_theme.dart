@@ -1,4 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:unitask/app/theme/preview.dart';
+
+@AppThemePreview(group: 'UI 확인', name: 'Chip', brightness: .light)
+Widget get chipPreview => const Wrap(
+  spacing: 10,
+  runSpacing: 10,
+  children: [
+    Chip(label: Text('전체')),
+    Chip(label: Text('진행중')),
+    Chip(label: Text('완료')),
+  ],
+);
 
 class AppTheme {
   static ThemeData get light => ThemeData.light(useMaterial3: true).copyWith(
