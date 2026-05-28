@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:unitask/app/theme/preview.dart';
 
 @AppThemePreview(group: 'Buttons', name: 'SelectableChip')
-Widget preview() {
+Widget chippreview() {
   int index = 0;
 
   return StatefulBuilder(

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:unitask/app/theme/preview.dart';
 
 @AppThemePreview(group: 'UI 확인', name: 'Chip', brightness: .light)
-Widget get chipPreview => const Wrap(
+Widget chipPreview() => const Wrap(
   spacing: 10,
   runSpacing: 10,
   children: [
@@ -52,6 +52,7 @@ class AppTheme {
         borderSide: BorderSide.none,
       ),
     ),
+    cardTheme: const CardThemeData(elevation: 4, color: Colors.white),
   );
 
   static ThemeData get dark => ThemeData.dark(useMaterial3: true).copyWith(
